@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+h1 {
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    position: relative;
+    top: 5rem;
+    left: 9rem;
+}
+
+h2 {
+    font-family: 'Nunito Sans',sans-serif;
+    position: relative;
+    left: 3rem;
+    padding: 2rem 0;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Nunito Sans',sans-serif;
+    display: block;
+}
+/* Structure Website */
+
+.container {
+    display: block;
+    margin: 9rem;
+    border: 1px solid black;
+}
+
+.color-container {
+    display: block;
+    width: 100%;
+    margin: 1rem 3rem;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 5px auto;
+    min-height: 13rem;
+}
+
+.color-panel.blue {
+    background-color: #2d5dcc;
+    color: white;
+}
+
+.color-panel.pink {
+    background-color: #d957d9;
+    color: white;
+}
+
+.color-panel.mint {
+    background-color: #4fe0b0;
+    color: white;
+}
+
+.color-panel.beige {
+    background-color: #efd9ca;
+    color: white;
+}
